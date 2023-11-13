@@ -1,0 +1,11 @@
+function calculateAverage(numbers) {
+    let sum = 0;
+    for (let i = 0; i < numbers.length; i++) {
+      sum += numbers[i];
+    }
+    return sum / numbers.length;
+  }
+  
+  const numbers = [2, 4, 6, 8];
+  const average = calculateAverage(numbers);
+  console.log(average);
